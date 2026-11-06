@@ -24,7 +24,7 @@ export default {
     legalName: null, // PRIVATE — schema only, and only if different from publicName
     publicName: 'Canopyway',
     tagline: 'Solo & Self-Directed 401(k) Plan Support',
-    publicNameConfirmed: false, // true once the trade name is registered (Fulton County Clerk of Superior Court)
+    publicNameConfirmed: false, // true once the trade name is registered (Clerk of Superior Court, county of the office)
     owner: null, // optional
     foundingYear: null,
 
@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // [REQUIRED] e.g. "1234 Example St, Suite 200" — real, staffed office only
-      addressLocality: 'Atlanta',
+      streetAddress: '4751 Best Rd', // real, staffed office
+      addressLocality: 'College Park',
       addressRegion: 'GA',
-      postalCode: null, // [REQUIRED]
+      postalCode: '30337',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only

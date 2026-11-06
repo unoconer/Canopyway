@@ -66,7 +66,7 @@ export function contactBlock() {
         <ol class="next">
           <li>We review your request.</li>
           <li>We contact you to arrange a time.</li>
-          <li>We meet at our Atlanta office and agree what support would help.</li>
+          <li>We meet at our College Park office and agree what support would help.</li>
         </ol>
         <p class="fine">Please don’t send Social Security numbers, account numbers or passwords through this website.</p>
       </div>

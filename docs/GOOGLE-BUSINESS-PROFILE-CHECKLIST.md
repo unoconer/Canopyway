@@ -8,17 +8,15 @@ Use this **after** the website is live and Search Console is verified.
 > office, mailbox or unstaffed coworking address. Google may suspend the profile, and
 > it can damage trust.
 
-## Canopyway (Atlanta, GA) notes
+## Canopyway (College Park, GA, serving Atlanta) notes
 
 - **Name:** **Canopyway**, exactly as on the website. In Georgia, register the trade name with the
-  **Clerk of Superior Court** in the county where the office is (Fulton or DeKalb, depending on the
-  address), then publish the required notice in the county's legal newspaper. Do this before
+  **Clerk of Superior Court** in the county where the office is (for this address, check whether it falls in Fulton or Clayton County), then publish the required notice in the county's legal newspaper. Do this before
   creating the profile.
 - **Business type:** **Local store / storefront**: clients visit your Atlanta office during the
   posted hours. Google requires a **complete, real street address that is staffed during those
-  hours**. The website currently shows **address placeholders**. Fill in the real street address
-  and ZIP in `site.config.mjs` first, so the site and the profile match exactly.
-- **Address:** must match the website character for character (suite number included).
+  hours**.
+- **Address:** **4751 Best Rd, College Park, GA 30337**, entered exactly as on the website. Google will show the city as College Park; that's correct. Add any suite number to both. You may add Atlanta as a service area.
 - **Phone:** **(470) 375-0647**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.
 - **Primary category:** **Financial consultant**.

@@ -1,14 +1,14 @@
 # Canopyway: Website
 
 A one-page site for Canopyway, which provides Solo and self-directed 401(k) plan support from an
-office in Atlanta, Georgia. It's static with no dependencies, built with Node and deployed
+office in College Park, Georgia, serving Atlanta. It's static with no dependencies, built with Node and deployed
 to **Netlify** at `https://canopyway.netlify.app`.
 
 ## Quick start
 
 ```bash
 node build.mjs          # builds ./dist; checks internal links; lists missing info
-STRICT=1 node build.mjs # pre-launch check (fails while the address placeholders remain)
+STRICT=1 node build.mjs # pre-launch check
 ```
 
 ## Deploy to Netlify
@@ -25,12 +25,11 @@ Services · How it works · Who does what · 401(k) basics · FAQ · About · Vi
 `/privacy-policy/`, `/terms/` and `/disclosures/` are separate pages under Georgia law
 plus `/thank-you/` and `404.html`.
 
-## Office address (placeholder)
+## Office address
 
-Canopyway is set up as a **storefront office** (`locationType: 'office'`). Until
-`business.address.streetAddress` and `postalCode` are filled in, the page shows yellow
-`[Street address — to be provided]` and `[ZIP]` tags, and no storefront schema or map is output.
-Fill both in `site.config.mjs` with the real, staffed office address, then rebuild.
+Canopyway is a **storefront office** (`locationType: 'office'`) at **4751 Best Rd, College Park,
+GA 30337**, serving Atlanta. The address shows in the hero card, footer and contact section, with a
+map and storefront structured data. Keep it identical to the Google Business Profile.
 
 ## Design
 

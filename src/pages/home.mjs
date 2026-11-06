@@ -6,7 +6,7 @@ const EDU = SERVICES.filter((s) => s.group === 'education');
 
 const faqs = [
   { q: 'What does Canopyway do?', a: '<p>Canopyway provides administrative support and education for Solo and self-directed 401(k) plans: setup alongside the provider you choose, plan records and year-end values, Form 5500-EZ preparation, and year-round help. You remain the plan sponsor and make every decision.</p>' },
-  { q: 'Where do we meet?', a: '<p>At the Canopyway office in Atlanta, Monday through Friday, by appointment. If you’d rather talk first, we’re happy to start with a phone call.</p>' },
+  { q: 'Where do we meet?', a: '<p>At the Canopyway office, 4751 Best Rd in College Park, Monday through Friday, by appointment. If you’d rather talk first, we’re happy to start with a phone call.</p>' },
   { q: 'Do you pick or recommend investments?', a: '<p>No. Investment decisions are yours. We keep the plan’s paperwork in order and explain the rules that apply.</p>' },
   { q: 'Do you hold my retirement money?', a: '<p>No. Plan assets stay in accounts titled to your plan at the institutions you choose. We never hold, move or invest plan money.</p>' },
   { q: 'Who can open a Solo 401(k)?', a: '<p>Generally a business with self-employment or business income and no eligible employees besides the owners and their spouses. Sole proprietors, LLCs, partnerships and corporations can all qualify; hiring can change that.</p>' },
@@ -17,7 +17,7 @@ const faqs = [
 ];
 
 const STEPS = [
-  ['Book a visit', 'Call or send the form, and we’ll set a time at our Atlanta office — or start with a quick phone call.'],
+  ['Book a visit', 'Call or send the form, and we’ll set a time at our College Park office — or start with a quick phone call.'],
   ['Take stock', 'We look at your business, any existing plan, and where you’d like a hand.'],
   ['Agree the scope', 'In writing: what we handle, what your provider handles, and what stays with you.'],
   ['Get grounded', 'New plan: setup with your provider. Existing plan: records gathered and gaps closed.'],
@@ -48,7 +48,7 @@ export default {
     <div class="hero__copy">
       <p class="kicker kicker--light">Atlanta · ${esc(B.tagline)}</p>
       <h1 id="hero-h">Room for your 401(k) to grow, <em>with the paperwork covered.</em></h1>
-      <p class="hero__lead">Canopyway helps Atlanta business owners and self-employed professionals set up and run Solo and self-directed 401(k) plans — organized records, Form 5500-EZ on time, and straight answers. Visit us at our Atlanta office.</p>
+      <p class="hero__lead">Canopyway helps Atlanta business owners and self-employed professionals set up and run Solo and self-directed 401(k) plans — organized records, Form 5500-EZ on time, and straight answers. Visit us at our office in College Park.</p>
       <div class="btn-row">
         <a class="btn btn--accent btn--lg" href="#contact">Book an Office Visit</a>
         <a class="btn btn--glass btn--lg" href="${phoneHref()}">${icon('phone')} ${esc(B.phone)}</a>
@@ -157,7 +157,7 @@ export default {
       <p class="kicker">About Canopyway</p>
       <h2 id="about-h">Named for the City in a Forest</h2>
       <p class="lead">Atlanta is known for its tree canopy — the cover that shelters the city and lets it grow. Canopyway is built on the same idea: steady cover for the paperwork, so your retirement plan has room to grow.</p>
-      <p>We work with consultants, contractors, clinicians, creatives, tech founders and small firms across Atlanta, with meetings at our office by appointment.</p>
+      <p>We work with consultants, contractors, clinicians, creatives, tech founders and small firms across metro Atlanta, with meetings at our College Park office by appointment.</p>
       <ul class="standards">
         <li><strong>Clear scope.</strong> We agree up front what we handle and what stays with you and your provider.</li>
         <li><strong>Your decisions stay yours.</strong> We aren’t a fiduciary, trustee, custodian, registered investment adviser or broker-dealer, and we don’t give legal or tax advice.</li>
@@ -168,11 +168,11 @@ export default {
   </div>
 </section>
 
-${ctaBand({ heading: 'Bring your plan questions to the office.', text: 'Book a visit with Canopyway in Atlanta — new plan or existing one.', button: 'Book an Office Visit' })}
+${ctaBand({ heading: 'Bring your plan questions to the office.', text: 'Book a visit with Canopyway in College Park — new plan or existing one.', button: 'Book an Office Visit' })}
 
 <section class="section" id="contact" aria-labelledby="contact-h">
   <div class="container">
-    <div class="head"><p class="kicker">Visit &amp; contact</p><h2 id="contact-h">Book an office visit</h2><p>Send a few details and we’ll call to set a time at our Atlanta office.</p></div>
+    <div class="head"><p class="kicker">Visit &amp; contact</p><h2 id="contact-h">Book an office visit</h2><p>Send a few details and we’ll call to set a time at our College Park office.</p></div>
   </div>
   ${contactBlock()}
 </section>
