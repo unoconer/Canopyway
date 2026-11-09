@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://canopyway.netlify.app', // no trailing slash
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'JGxmYakSv8cV418wqLIKM1HCm2JXvZNiEdqZJ54cpgI', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
